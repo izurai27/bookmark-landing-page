@@ -12,10 +12,7 @@ export const HeaderStyled = styled.header`
   padding: calc(39/375*100vw) calc(31/375*100vw);
   /* z-index:777; */
   
-  .logo{
-    padding-left:23px;
-  }
-
+ 
   /* .mobileMenu{
     padding-right:23px;
   } */
