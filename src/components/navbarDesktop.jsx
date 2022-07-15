@@ -7,16 +7,14 @@ const NavbarDesktop = () => {
     <StyledNavbarDesktop>
 
         <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Contact</li>
-          <li>Blog</li>
-          <li>Careers</li>
+          <li>FEATURES</li>
+          <li>PRICING</li>
+          <li>CONTACT</li>
         </ul>
 
   <Gap height="20px"/>
-        <button className="atcInvite">
-          Request Invite
+        <button className="red">
+          Login
         </button>
     </StyledNavbarDesktop>
     

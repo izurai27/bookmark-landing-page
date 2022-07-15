@@ -90,18 +90,27 @@ export const HeroStyled = styled.main`
     justify-content:space-between;
     align-items:center;
     background-color: var(--veryLightGray);
+    padding-top:calc(51/16*1rem);
     /* overflow: visible; */
     
     .img{
       
       /* background-size: 160%;
       background-position: 6% 67%;  */
-      width:130%;
-      aspect-ratio:  784/ 658;
+      width:100%;
+      aspect-ratio:  577/ 392;
       position:relative;
       overflow: visible;
     }
 
+    .hero::before{
+      
+      width:74%;
+      height:80%;
+      left: 26%;
+      top:30%;
+      border-radius: 0 0 0 180px;
+    }
     .mockup{
       position:absolute;
       top:25px;
@@ -118,8 +127,8 @@ export const HeroStyled = styled.main`
     img{
       
       width:100%;
-      transform: translate(112px, -117px);
-      transform: translate(17%, -14%);
+      /* transform: translate(112px, -117px); */
+      /* transform: translate(-10%, 0); */
       
     }
 
@@ -129,6 +138,10 @@ export const HeroStyled = styled.main`
       padding-left:calc(154/1440*100vw);
       padding-right:calc(72/1440*100vw);
 
+    }
+
+    .buttonGroup{
+      justify-content: flex-start;
     }
 
     

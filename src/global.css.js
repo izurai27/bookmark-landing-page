@@ -64,6 +64,13 @@ button {
     color:white;
     padding-inline:2.5rem;
 }
+
+.red{
+    width:100%;
+    background-color: var(--SoftRed);
+    color:white;
+  }
+  
 h2{
   font-size:calc(24/16*1rem);
   letter-spacing: 0.02em;
