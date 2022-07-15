@@ -3,7 +3,7 @@ import './reset.css';
 import GlobalCSS from './global.css'
 import Hero from './components/hero';
 import Reason from './components/features';
-import Article from './components/article';
+import Article from './components/download';
 import Footer from './components/footer';
 
 
