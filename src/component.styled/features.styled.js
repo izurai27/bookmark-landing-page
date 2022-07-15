@@ -1,12 +1,13 @@
 import styled from "styled-components";
 
-export const ReasonStyled = styled.section`
+export const FeaturesStyled = styled.section`
   background-color: var(--lightGrayishBlue);
   text-align:center;
-  padding: calc(73/16*1rem) calc(24/16*1rem);
+  padding: calc(73/16*1rem) calc(30/16*1rem);
+  /* padding: calc(73/16*1rem) 0; */
   display:flex;
   flex-direction: column;
-  row-gap: calc(55/16*1rem);
+  row-gap: calc(40/16*1rem);
 
   .title{
     display:flex;
@@ -33,6 +34,32 @@ export const ReasonStyled = styled.section`
     flex-direction: column;
     row-gap:calc(25/16*1rem);
 
+  }
+
+  li{
+    font-size: calc(18/16*1rem);
+    color:var(--GrayishBlue);
+    padding:calc(19/16*1rem);
+    border-bottom:1px solid var(--GrayishBlue);
+    position:relative;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  li:first-child{
+    border-top:1px solid var(--GrayishBlue);
+  }
+
+  .active::after{
+    content:'';
+    width:45%;
+    height:4px;
+    background-color:var(--SoftRed);
+    position:absolute;
+    bottom:0;
   }
 
 

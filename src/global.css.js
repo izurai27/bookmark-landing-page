@@ -56,8 +56,8 @@ p{
 } */
 
 h2{
-  font-size:calc(30/16*1rem);
-  letter-spacing: -0.01em;
+  font-size:calc(24/16*1rem);
+  letter-spacing: 0.02em;
   color:var(--darkBlue);
   line-height: 1.2em ;
 
