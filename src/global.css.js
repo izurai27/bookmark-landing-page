@@ -29,18 +29,18 @@ body{
 }
 
 h1{
-  font-size:calc(42/16*1rem);
-  letter-spacing: -0.04em;
-  color: var(--darkBlue);
-  font-weight: 300;
-  line-height: 1.15em;
+  font-size:calc(30/16*1rem);
+  letter-spacing: 0.02em;
+  color: var(--VeryDarkBlue);
+  font-weight: 500;
+  line-height: 1.4em;
 }
 
 p{
   font-size:1rem;
-  letter-spacing:-0.06em;
-  color:var(--grayishBlue);
-  line-height:1.6em;
+  letter-spacing:-0.03em;
+  color:var(--GrayishBlue);
+  line-height:1.5em;
   
 }
 

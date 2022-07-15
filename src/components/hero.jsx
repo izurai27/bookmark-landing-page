@@ -1,28 +1,34 @@
 import React from 'react'
 import { HeroStyled } from '../component.styled/hero.styled'
-// import mockup from '../images/image-mockups.png'
+import heroImg from '../images/illustration-hero.svg'
 import Gap from './Gap'
 
 const Hero = () => {
   return (
     <HeroStyled>
       <div className="img">
-        <div className="mockup">
-          {/* <img src={mockup} alt="mockup" /> */}
-
+        <div className="hero">
+          <img src={heroImg} alt="mockup" />
         </div>
       </div>
       <div className='message'>
 
         
-        <h1>Next generation digital banking</h1>
+        <h1>A Simple Bookmark Manager</h1>
         <Gap height='1rem'/>
-        <p>Take your financial life online. Your Easybank account will be a one-stop-shop 
-  for spending, saving, budgeting, investing, and much more.</p>
+        <p>A clean and simple interface to organize your favourite websites. Open a new 
+          browser tab and see your sites load instantly. Try it for free.</p>
         <Gap height='1.9rem'/>
-        <button className="atcInvite">
-          Request Invite
-        </button>
+        <div className="buttonGroup">
+          <button className="atcChrome">
+            Get it on Chrome
+          </button>
+          <Gap width="1rem"/>
+          <button className="atcFirefox">
+            Get it on Firefox
+          </button>
+
+        </div>
         <Gap height='5rem'/>
       </div>
     </HeroStyled>

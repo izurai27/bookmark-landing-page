@@ -4,6 +4,7 @@ import styled from "styled-components";
 
 export const HeroStyled = styled.main`
   text-align:center;
+  padding-top:calc(40/16*1rem);
   
   .img{
     
@@ -15,29 +16,71 @@ export const HeroStyled = styled.main`
     
     overflow: hidden;
     width:100%;
-    aspect-ratio: 375/325;
+    aspect-ratio: 375/305;
     /* aspect-ratio: 1/1; */
     
   }
-  .mockup{
+  .hero{
     width:100%;
     height: 100%;
-    display:flex;
+    /* display:flex;
     align-items: flex-end;
     justify-content: center;
-    transform:translateY(-26px)
+    transform:translateY(-26px); */
+    position: relative;
   }
-  img{
+  
+  .hero::before{
+    content:'';
+    background-color: var(--SoftBlue);
     width:100%;
+    height:68%;
+    position:absolute;
+    border-radius: 0 0 0 100px;
+    left: 80px;
+    top:17%;
+    z-index:-30;
+    /* box-shadow: -10px 0px 20px 0px grey; */
+  }
+
+  img{
+    width:110%;
     width:calc(345/375*100%);
-   
+    z-index:10;
   }
 
   .message{
     padding-inline: 2rem;
   }
- h1{
+
+  /* h1{
     margin-top:-5px;
+  } */
+
+  .buttonGroup{
+    display:flex;
+
+  }
+  button{
+    width:calc(151/16*1rem);
+    font-size:0.9rem;
+    letter-spacing: -0.03em;
+    padding:1rem;
+    font-family:inherit;
+    font-weight: 500;
+    border-radius:5px;
+    border:none;
+    box-shadow: 0px 5px 10px  rgba(0,0,0,0.4);
+
+  }
+
+  .atcChrome{
+    background-color: var(--SoftBlue);
+    color:white;
+  }
+
+  .atcFirefox{
+    background-color: hsl(0,0,5);
   }
 
   @media only screen and (min-width:765px){
