@@ -1,20 +1,21 @@
+
+
 import { createGlobalStyle } from 'styled-components'
 
 export default createGlobalStyle`
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+
 :root{
   /* ## Colors*/
 
-  --darkBlue: hsl(233, 26%, 24%);
-  --limeGreen: hsl(136, 65%, 51%);
-  --brightCyan: hsl(192, 70%, 51%);
+  --SoftBlue: hsl(231, 69%, 60%);
+  --SoftRed: hsl(0, 94%, 66%);
 
 /* ### Neutral */
 
---grayishBlue: hsl(233, 8%, 62%);
---lightGrayishBlue: hsl(220, 16%, 96%);
---veryLightGray: hsl(0, 0%, 98%);
---white: hsl(0, 0%, 100%);
---breakpoint:1440px;
+--GrayishBlue: hsl(229, 8%, 60%);
+--VeryDarkBlue: 229, 31%, 21%;
 } 
  
  
@@ -23,7 +24,7 @@ body{
   /* ### Body Copy */
   
   font-size: calc(18/16*1rem);
-  font-family: 'Public Sans', sans-serif;
+  font-family: 'Rubik', sans-serif;
   /* overflow: hidden; */
 }
 
@@ -43,7 +44,7 @@ p{
   
 }
 
-button{
+/* button{
   width:calc(162/16*1rem);
   border:none;
   height:calc(46/16*1rem);
@@ -52,7 +53,7 @@ button{
   color:var(--lightGrayishBlue);
   cursor:pointer;
   font-weight: 700;
-}
+} */
 
 h2{
   font-size:calc(30/16*1rem);

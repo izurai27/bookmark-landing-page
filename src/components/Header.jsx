@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react'
-// import logo from '../images/logo.svg'
+import logo from '../images/logo-bookmark.svg'
 import hbgMenu from '../images/icon-hamburger.svg'
 import { HeaderStyled } from '../component.styled/header.styled'
 import Navbar from './navbar'
@@ -26,7 +26,7 @@ const Header = () => {
   return (
     <HeaderStyled>
     
-        {/* <img src={logo} alt="easybank_logo" className="logo" /> */}
+        <img src={logo} alt="bookmark_logo" className="logo" />
         {(size<minWidth) && <img src={hbgMenu} alt="" className="mobileMenu" onClick={handleMobileMenu} />}
         {openNav && <Navbar handleMobileMenu={handleMobileMenu}/>}
         {(size>=minWidth) && <NavbarDesktop/>}
