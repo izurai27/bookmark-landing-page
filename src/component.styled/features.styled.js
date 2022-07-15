@@ -8,13 +8,16 @@ export const FeaturesStyled = styled.section`
   display:flex;
   flex-direction: column;
   row-gap: calc(40/16*1rem);
+  
 
   .title{
     display:flex;
     flex-direction: column;
     row-gap:calc(16/16*1rem);
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    width:100%;
+    text-align: center;
   }
 
   .group{
@@ -81,8 +84,8 @@ export const FeaturesStyled = styled.section`
 
     .title{
       align-items: flex-start;
-      width:calc(800/1440*100%);
-      text-align: left;
+      /* width:calc(800/1440*100%); */
+      /* text-align: left; */
       row-gap:calc(30/16*1rem);
     }
 

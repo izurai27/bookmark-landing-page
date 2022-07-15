@@ -18,7 +18,10 @@ export default createGlobalStyle`
 --VeryDarkBlue: 229, 31%, 21%;
 } 
  
- 
+*{
+  box-sizing: border-box;
+}
+
 body{
   /* ## Typography */
   /* ### Body Copy */

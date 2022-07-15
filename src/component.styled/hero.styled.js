@@ -59,6 +59,7 @@ export const HeroStyled = styled.main`
 
   .buttonGroup{
     display:flex;
+    justify-content: center;
 
   }
   button{

@@ -15,7 +15,7 @@ export const DownloadStyled = styled.section`
     display:flex;
     flex-direction: column;
     align-items: center;
-    
+    width:100%;
     row-gap: calc(40/16*1rem);
   }
 
@@ -84,24 +84,10 @@ export const DownloadStyled = styled.section`
     align-items: flex-start;
     row-gap: calc(45/16*1rem);
     padding-bottom:calc(85/16*1rem);
-    .articleCards{
-      flex-direction: row;
-      justify-content: space-between;
-      column-gap: 2rem;
-      align-items: flex-start;
-      flex-wrap:wrap;
-    }
+    
 
     
-    .article-item{
-      max-width: calc(253/16*1rem); 
-    }
-
-    p{
- 
-  line-height:1.3em;
-  
-}
+    
 
   }
 `
