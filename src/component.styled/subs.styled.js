@@ -5,10 +5,11 @@ export const SubscribeStyled = styled.section`
   flex-direction: column;
   align-items: center;
   padding:calc(65/16*1rem) calc(35/16*1rem);
+  padding-bottom:calc(60/16*1rem);
   text-align: center;
   background-color: var(--SoftBlue);
   color:white;
-  margin-top:calc(80/16*1rem);
+  margin-top:calc(75/16*1rem);
 
   p{
     color:white;

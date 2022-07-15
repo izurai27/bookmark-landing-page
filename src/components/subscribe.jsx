@@ -37,7 +37,7 @@ const Subscribe = () => {
         </div>
         <div className="warning ">Whoops, make sure it's an email</div>
       </div>
-      <Gap height='0.7rem'/>
+      <Gap height='1rem'/>
       <button className='red'>Contact Us</button>
 
     </SubscribeStyled>

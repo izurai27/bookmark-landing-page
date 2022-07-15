@@ -41,7 +41,7 @@ const Faq = () => {
       <Gap height='1.5rem'/>
       <p>Here are some of our FAQs. If you have any other questions you’d like 
         answered please feel free to email us.</p>
-    <Gap height='3rem'/>
+    <Gap height='2.3rem'/>
     {faqitems.map((el,index) => {
       return(
         <div className="questionItem" key={index} onClick={handleclick}>
@@ -55,7 +55,7 @@ const Faq = () => {
       )
     })}
     
-    <Gap height='3rem'/>
+    <Gap height='2.9rem'/>
     <button className="blue">More Info</button>
     </FaqStyles>
     

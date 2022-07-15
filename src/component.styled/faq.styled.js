@@ -2,12 +2,12 @@ import styled from "styled-components";
 // import arrow from '../images/icon-arrow.svg'
 
 export const FaqStyles = styled.section`
-  padding:calc(40/16*1rem) calc(36/16*1rem);
+  padding:calc(50/16*1rem) calc(36/16*1rem);
   text-align: center;
 
   .questionItem{
     text-align: left;
-    padding-top:calc(30/16*1rem);
+    padding-top:calc(28/16*1rem);
     padding-bottom:calc(20/16*1rem);
     border-bottom: 1px solid var(--GrayishBlue);
   }
