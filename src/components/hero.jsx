@@ -29,7 +29,7 @@ const Hero = () => {
           </button>
 
         </div>
-        <Gap height='5rem'/>
+       
       </div>
     </HeroStyled>
     

@@ -7,26 +7,14 @@ export const HeroStyled = styled.main`
   padding-top:calc(40/16*1rem);
   
   .img{
-    
-    /* background-repeat: no-repeat;
-    background-size: cover;
-    background-position: left 60%;
-    background-position: left bottom;
-    background-position: left 63%; */
-    
     overflow: hidden;
     width:100%;
-    aspect-ratio: 375/305;
-    /* aspect-ratio: 1/1; */
-    
+    aspect-ratio: 375/305;   
   }
+
   .hero{
     width:100%;
     height: 100%;
-    /* display:flex;
-    align-items: flex-end;
-    justify-content: center;
-    transform:translateY(-26px); */
     position: relative;
   }
   
@@ -40,7 +28,6 @@ export const HeroStyled = styled.main`
     left: 80px;
     top:17%;
     z-index:-30;
-    /* box-shadow: -10px 0px 20px 0px grey; */
   }
 
   img{
@@ -51,17 +38,14 @@ export const HeroStyled = styled.main`
 
   .message{
     padding-inline: 2rem;
+    padding-bottom:5rem;
   }
-
-  /* h1{
-    margin-top:-5px;
-  } */
 
   .buttonGroup{
     display:flex;
     justify-content: center;
-
   }
+
   button{
     width:calc(151/16*1rem);
     font-size:0.9rem;
@@ -72,7 +56,6 @@ export const HeroStyled = styled.main`
     border-radius:5px;
     border:none;
     box-shadow: 0px 5px 10px  rgba(0,0,0,0.4);
-
   }
 
   .atcChrome{
@@ -90,19 +73,15 @@ export const HeroStyled = styled.main`
     justify-content:space-between;
     align-items:center;
     background-color: var(--veryLightGray);
-    padding-top:calc(51/16*1rem);
-    /* overflow: visible; */
+    padding-top:calc(37/16*1rem);
     
     .img{
       
-      /* background-size: 160%;
-      background-position: 6% 67%;  */
-      width:100%;
-      aspect-ratio:  577/ 392;
+      aspect-ratio:  570/ 392;
       position:relative;
       overflow: visible;
     }
-
+    
     .hero::before{
       
       width:74%;
@@ -122,22 +101,21 @@ export const HeroStyled = styled.main`
       width:100%;
       height:fit-content;
       
-
+      
     }
     img{
       
       width:100%;
-      /* transform: translate(112px, -117px); */
-      /* transform: translate(-10%, 0); */
+      transform: translate(-8%, 0);
       
     }
-
+    
     .message{
       text-align: left;
-      padding-inline: 0;
       padding-left:calc(154/1440*100vw);
       padding-right:calc(72/1440*100vw);
-
+      padding-bottom:0;
+      
     }
 
     .buttonGroup{

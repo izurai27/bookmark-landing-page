@@ -17,7 +17,7 @@ export const HeaderStyled = styled.header`
     padding-right:23px;
   } */
   
-  @media only screen and (min-width:375px){
+  @media only screen and (min-width:765px){
     padding:3rem;
     padding-left:calc(170/16*1rem);
   }

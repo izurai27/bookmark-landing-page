@@ -28,16 +28,17 @@ const Detail = (props) => {
       {
         detailItems.filter((el,index)=> index === props.index).map( (elemen, index) => {
          return(
-          <>
+          <div key={index} className='container'>
             <div className="imgContainer">
               <img src={elemen.image} alt="feature" />
             </div>
             <div className="detailMsg">
               <h2>{elemen.title}</h2>
-              <Gap height='1rem'/>
+              {/* <Gap height='1rem'/> */}
               <p>{elemen.paragraf}</p>
+              <button className='blue moreinfo'>More Info</button>
             </div>
-            </>
+            </div>
 
          )
 

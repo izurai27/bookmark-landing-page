@@ -37,6 +37,7 @@ h1{
   color: var(--VeryDarkBlue);
   font-weight: 500;
   line-height: 1.4em;
+  
 }
 
 p{
@@ -78,8 +79,9 @@ h2{
   line-height: 1.2em ;
 
   @media only screen and (min-width:765px){
-    font-size:calc(40/16*1rem);
+    font-size:calc(34/16*1rem);
       letter-spacing: -0.01em;
+      
   }
 }
 
@@ -93,9 +95,9 @@ h3{
 @media only screen and (min-width:765px){
 
   h1{
-    font-size:calc(53/16*1rem);
+    font-size:calc(50/16*1rem);
     letter-spacing: 0;
-       
+    line-height:100%;   
   }
 
   p{
