@@ -3,7 +3,7 @@ import { DetailStyled } from '../component.styled/detail.styled'
 import feat1 from '../images/illustration-features-tab-1.svg'
 import feat2 from '../images/illustration-features-tab-2.svg'
 import feat3 from '../images/illustration-features-tab-3.svg'
-import Gap from './Gap'
+// import Gap from './Gap'
 const detailItems = [
   {
     image: feat1,
