@@ -30,6 +30,7 @@ const Subscribe = () => {
       <Gap height='0.5rem'/>
       <h2>Stay up-to-date with what we’re doing</h2>
       <Gap height='2rem'/>
+      <form>
       <div className="email ">
         <div className='group'>
           <input type="email" placeholder='Enter your email address' onInput={handleInput}/>
@@ -39,6 +40,8 @@ const Subscribe = () => {
       </div>
       <Gap height='1rem'/>
       <button className='red'>Contact Us</button>
+
+      </form>
 
     </SubscribeStyled>
   )

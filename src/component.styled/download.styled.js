@@ -80,13 +80,36 @@ export const DownloadStyled = styled.section`
 } */
 
   @media only screen and (min-width:765px){
-    padding:calc(90/16*1rem) calc(155/16*1rem) ;
-    align-items: flex-start;
+    padding:calc(20/16*1rem) calc(260/16*1rem) ;
+    align-items: center;
     row-gap: calc(45/16*1rem);
     padding-bottom:calc(85/16*1rem);
-    
 
+    .downloadtitle{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
     
+    .cards{
+   
+      flex-direction: row;
+      column-gap: 20px;
+      align-items: flex-start;
+      
+    }
+
+    .downloadtitle p{
+      width:60%;
+      line-height: 150%;
+    }
+
+    .browser:nth-child(2){
+      margin-top:calc(50px);
+    }
+    .browser:nth-child(3){
+      margin-top:calc(50px*2);
+    }
     
 
   }

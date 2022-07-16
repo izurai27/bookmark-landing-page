@@ -48,20 +48,23 @@ export const FooterStyled = styled.footer`
   @media only screen and (min-width:765px){
     flex-direction: row;
     justify-content: space-between;
-    padding:calc(50/16*1rem) 10rem;
+    padding:calc(40/16*1rem) 10rem;
     box-sizing: border-box;
+    align-items: flex-start;
   
     ul{
-      flex-wrap:wrap;
+      /* flex-wrap:wrap; */
+      flex-direction: row;
       height:calc(89/16*1rem);
       align-items:flex-start;
-      /* width:calc(590/1440*100vw); */
+      width:calc(590/1440*100vw);
       padding-right:calc(300/16*1rem);
       box-sizing: border-box;
+      column-gap: 20px;
     }
   
     .right{
-      align-items:flex-end;
+      align-items:flex-start;
     }
 
     .left{

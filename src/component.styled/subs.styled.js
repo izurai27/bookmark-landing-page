@@ -19,7 +19,7 @@ export const SubscribeStyled = styled.section`
 
   .email{
     width:100%;
-    border-radius: 5px;
+    
   }
 
   .emailwarning{
@@ -34,6 +34,7 @@ export const SubscribeStyled = styled.section`
     justify-content: space-between;
     align-items: center;
     padding-inline:calc(21/16*1rem);
+    border-radius: 5px;
   }
 
   input{
@@ -83,5 +84,25 @@ export const SubscribeStyled = styled.section`
     width:100%;
     background-color: var(--SoftRed);
     color:white;
+  }
+
+  @media only screen and (min-width: 765px){
+    row-gap: 10px;
+    margin-top:calc(100/16*1rem);
+
+    button.red{
+      width: 40%;
+    }
+
+    h2{
+      width:30%;
+    }
+
+    form{
+      display:flex;
+      width:30%;
+      justify-content: space-between;
+      column-gap: 10px;
+    }
   }
 `

@@ -53,4 +53,20 @@ export const FaqStyles = styled.section`
       stroke:var(--SoftRed)
     }
   }
+
+  @media only screen and (min-width: 765px){
+    width:40%;
+    margin:auto;
+    padding:calc(60/16*1rem) calc(36/16*1rem);
+
+    p{
+      line-height: 1.7em;
+    }
+
+    .questionItem:first-child{
+      border-top: 1px solid var(--GrayishBlue);
+    }
+    
+
+  }
 `
