@@ -16,11 +16,14 @@ function App() {
     <>
       <GlobalCSS/>
       <Header/>
-      <Hero/>
-      <Features/>
-      <Download/>
-      <Faq/>
-      <Subscribe/>
+      <main>
+        <Hero/>
+        <Features/>
+        <Download/>
+        <Faq/>
+        <Subscribe/>
+
+      </main>
       <Footer/>
     </>
   );

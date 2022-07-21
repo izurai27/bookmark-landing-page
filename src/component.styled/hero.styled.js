@@ -2,7 +2,7 @@ import styled from "styled-components";
 // import bgImg from '../images/bg-intro-mobile.svg'
 // import bgImgDesktop from '../images/bg-intro-desktop.svg'
 
-export const HeroStyled = styled.main`
+export const HeroStyled = styled.section`
   text-align:center;
   padding-top:calc(40/16*1rem);
   
