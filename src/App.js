@@ -13,7 +13,7 @@ import Subscribe from './components/subscribe';
 function App() {
   return (
   
-    <div className="App">
+    <>
       <GlobalCSS/>
       <Header/>
       <Hero/>
@@ -22,7 +22,7 @@ function App() {
       <Faq/>
       <Subscribe/>
       <Footer/>
-    </div>
+    </>
   );
 }
 
